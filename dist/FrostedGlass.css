@@ -4,6 +4,7 @@
   --TB-tr-roundness: var(--window-roundness);
   --TB-position-top: var(--TB-top, var(--window-padding));
   --TB-position-right: var(--window-padding);
+  --background-image: url('https://us-east-1.tixte.net/uploads/tewms-of-sewvice.discowd.com/davide-sibilio-quOy9JPjEKs-unsplash.jpg');
   --tint: rgb(var(--tint-colour), var(--tint-brightness));
   --foreground-half: rgb(255, 255, 255, 0.025);
   --foreground: rgb(255, 255, 255, 0.05);
@@ -201,7 +202,7 @@ textarea {
   right: 0;
   bottom: 0;
   left: 0;
-  background: url('https://us-east-1.tixte.net/uploads/tewms-of-sewvice.discowd.com/davide-sibilio-quOy9JPjEKs-unsplash.jpg');
+  background: var(--background-image);
   background-position: center;
   background-size: cover;
 }
